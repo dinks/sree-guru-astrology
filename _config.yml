@@ -2,11 +2,13 @@
 title: Sree Guru Astrology
 email: astrologer@sreeguru.com
 description: > # Wooho
-  A wonderful site
+  Astrological Solution to a better life
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://sreeguruastrology.com" # the base hostname & protocol for your site
 twitter_username: dineshvasudevan
 github_username:  dinks
+contact_number: "+91 9447378660"
+email: "sreeguruastrology@yahoo.com"
 
 # Build settings
 markdown: kramdown
