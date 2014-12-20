@@ -41,3 +41,12 @@
 footer {
   padding: 10px;
 }
+
+// User reports
+#crowd-shortcut {
+  @include media-query(992px) {
+    // The popup is broken for smaller displays
+    // therefore hide it
+    display: none !important;
+  }
+}
