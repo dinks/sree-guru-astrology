@@ -1,6 +1,7 @@
 .nav-contact {
   .icon {
     color: #27ae60;
+    margin-left: 20px;
   }
 
   .navbar-nav > li > a {
@@ -11,9 +12,8 @@
 .heading {
   position: relative;
   margin-bottom: 0;
-  border-bottom: 1px solid $yellow-color;
   background-color: transparent;
-  padding-top: 100px;
+  padding: 70px 0 20px;
   overflow: hidden;
 
   .video-container {
@@ -28,6 +28,14 @@
       min-width: 700px; // for reduced resolutions
     }
   }
+
+  @include media-query(768px) {
+    padding-top: 120px;
+  }
+}
+
+.nav-main {
+  border-radius: 0;
 }
 
 footer {

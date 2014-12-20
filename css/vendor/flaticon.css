@@ -16,7 +16,6 @@
 	font-variant: normal;
 	text-transform: none;
 	-moz-osx-font-smoothing: grayscale;
-	/*margin-left: 20px; Why is this set is a mystery */
 }
 .flaticon-2440:before {
 	content: "\e000";
