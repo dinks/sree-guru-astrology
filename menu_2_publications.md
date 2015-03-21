@@ -9,7 +9,7 @@ tags:
 <section class="wrapper style4 container 75% publications">
   <div class="row">
     <div class="3u 12u(mobile)">
-      <img src="/img/book.jpg" />
+      <img src="{{ site.baseurl }}/img/book.jpg" />
     </div>
     <div class="9u 12u(mobile)">
       <h3>Janmanakshathrangalum Vrikshangalum</h3>
