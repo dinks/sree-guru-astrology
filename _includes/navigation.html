@@ -1,26 +1,18 @@
-<nav class="nav-main navbar navbar-inverse" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-      <span class="sr-only">Toggle navigation</span>
-    </button>
-  </div>
-  <div class="collapse navbar-collapse" id="navbar-collapse-01">
-    <ul class="nav navbar-nav">
+<!-- Header -->
+<header id="header" class="alt">
+  <h1 id="logo">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
+  <nav id="nav">
+    <ul>
+      <li class="current"><a href="/">Welcome</a></li>
       {% for page in site.pages %}
-        {% if page.title %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
+        {% for tag in page.tags %}
+          {% if tag == 'menu' && page.title %}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </ul>
-    <form class="navbar-form navbar-right" action="#" role="search">
-      <div class="form-group">
-        <div class="input-group">
-          <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-          <span class="input-group-btn">
-            <button type="submit" class="btn"><span class="fui-search"></span></button>
-          </span>
-        </div>
-      </div>
-    </form>
-  </div><!-- /.navbar-collapse -->
-</nav><!-- /navbar -->
+  </nav>
+</header>

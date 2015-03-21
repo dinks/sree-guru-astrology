@@ -1,0 +1,119 @@
+-
+  title: Super Horoscope
+  price: Rs. 1500
+  description: "Gaze into the crystal bowl of your life. Find, know and conquer the star influences. Vedic or Indian Astrology at its scientific best. Contains ashtakavarga predictions and parihara (remedies)."
+  pages: "64-70"
+  available_in: "English, Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali"
+  reports:
+    -
+      title: English
+      url: "/samples/SuperHoroscopeEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/SuperHoroscopeMal.pdf"
+  order_url: "http://www.clickastro.com/super-horoscope?rf=SreeGuruAstrology"
+
+-
+  title: Full Horoscope
+  price: Rs. 1000
+  description: "Know whats in store at every stage of life according to Indian astrology. Find yourself and your special attributes based on your stars."
+  pages: "38-40"
+  available_in: "English, Hindi, Gujarathi, Sinhala, Tamil, Telugu, Kannada, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/FullHoroscopeEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/FullHoroscopeMal.pdf"
+  order_url: "http://www.clickastro.com/full-horoscope?rf=SreeGuruAstrology"
+
+-
+  title: Annual Forecast
+  price: Rs. 500
+  description: "Find out what's in store for you this year and suppress your misfortunes by your diligence, will power and the grace of God."
+  pages: "9-10"
+  available_in: "English, Tamil, Telugu, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/annualEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/annualMal.pdf"
+  order_url: "http://www.clickastro.com/yearly-horoscope?rf=SreeGuruAstrology"
+
+-
+  title: Marriage Compatibility
+  price: Rs. 200
+  description: "Searching for the recipe for a great marriage?. SoulMate points you to ways to find the most suitable spouse with the help of our Indian astrology based Marriage compatibility report."
+  pages: "3-5"
+  available_in: "English, Tamil, Telugu, Kannada, Malayalam, Hindi, Marathi, Gujarathi"
+  reports:
+    -
+      title: English
+      url: "/samples/SoulMateEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/SoulMateMal.pdf"
+  order_url: "http://www.clickastro.com/horoscope-compatibility?rf=SreeGuruAstrology"
+
+-
+  title: Gem Recommendation
+  price: Rs. 225
+  description: "Understand the link between stars and stones and stonewall the impelling auras in life using these gem recommendations."
+  pages: "3-4"
+  available_in: "English, Tamil, Telugu, Kannada, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/GemEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/GemMal.pdf"
+  order_url: "http://www.clickastro.com/gemstone-recommendation?rf=SreeGuruAstrology"
+
+-
+  title: Numerology
+  price: Rs. 200
+  description: "What to do, when and with whom. Scientific analysis of your numbers based on numerology to help you along to succeed."
+  pages: "7-8"
+  available_in: "English, Tamil, Telugu, Kannada, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/NumerologyEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/NumerologyMal.pdf"
+  order_url: "http://www.clickastro.com/indian-astrology/indianastrologyreports/orderastroreports.php?horoscope=Numerology&rf=SreeGuruAstrology"
+
+-
+  title: Career Prediction
+  price: Rs. 350
+  description: "Find out more about your personality traits and discover the education and career path which suits you the best!"
+  pages: "6-11"
+  available_in: "English, Tamil, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/CareerEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/CareerMal.pdf"
+  order_url: "http://www.clickastro.com/career-horoscope?rf=SreeGuruAstrology"
+
+-
+  title: Wealth Prediction
+  price: Rs. 350
+  description: "Akshaya means 'something which does not perish' (A-kshaya). Therefore, one should initiate important tasks and events on this day, since they are believed to see the light of success and stay successful for a long time."
+  pages: "5-6"
+  available_in: "English, Tamil, Malayalam"
+  reports:
+    -
+      title: English
+      url: "/samples/WealthEng.pdf"
+    -
+      title: Malayalam
+      url: "/samples/WealthMal.pdf"
+  order_url: "http://www.clickastro.com/wealth-horoscope?rf=SreeGuruAstrology"

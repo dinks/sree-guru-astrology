@@ -1,0 +1,29 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+tags:
+  - sub_menu
+---
+<article class="posts">
+  <header>
+    <h2>Articles</h2>
+  </header>
+  <section class="wrapper style2 container">
+    <div class="row 50%">
+      <div class="12u">
+        <ul class="no-bullet">
+          {% for post in site.posts %}
+            <li>
+              <h4>
+                <i class="icon fa-pencil-square"></i>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+</article>
