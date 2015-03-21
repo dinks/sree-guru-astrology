@@ -795,7 +795,6 @@ input[type="reset"].small,
 #banner {
   background-attachment: fixed;
   background-color: #FCFCFC;
-  background-image: image-url("/img/symphony.png");
   background-position: top center;
   background-repeat: repeat;
   background-size: auto;
@@ -891,7 +890,6 @@ body.index #main {
 #cta {
   background-attachment: scroll;
   background-color: #645862;
-  background-image: image-url("/img/symphony.png");
   background-position: top left;
   background-repeat: repeat;
   background-size: auto;
