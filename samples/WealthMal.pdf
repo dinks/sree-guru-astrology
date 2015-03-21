@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xml; charset=utf-8" />
+<title>Astrological solution to better life</title>
+<link href="http://sreeguruastrology.com/wp-content/themes/sreeguru/style.css" rel="stylesheet" type="text/css">
+<link href="http://sreeguruastrology.com/wp-content/themes/sreeguru/css/jqModal.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="http://cdn.webrupee.com/font">
+
+<script type="text/javascript" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/scripts/jqModal.js"></script>
+<script language="javascript" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/scripts/gen_validatorv31.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36329713-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+.error_strings{ font-family:Verdana; font-size:12px; color:#CE6202;}
+</style>
+<style>
+.jqmWindow
+{
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+	background-color:#C4D7A4;
+    
+    color: #333;
+    border: 2px solid #4B731A;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+#tabs {
+font-size: 90%;
+margin: 20px 0;
+}
+#tabs ul {
+float: left;
+background: #83B015;
+width: 950px;
+padding-top: 4px;
+}
+#tabs li {
+margin-left: 8px;
+list-style: none;
+}
+* html #tabs li {
+display: inline; /* ie6 double float margin bug */
+}
+#tabs li,
+#tabs li a {
+float: left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#tabs ul li a {
+text-decoration: none;
+padding: 8px;
+color: #ffffff;
+font-weight: bold;
+}
+#tabs ul li.active {
+background: #FFE500 url(img/nav-right.gif) no-repeat right top;
+}
+#tabs ul li.active a {
+background: url(img/nav-left.gif) no-repeat left top;
+color: #000000;
+}
+#tabs div {
+background: #ffffff;
+clear: both;
+padding: 10px;
+min-height: 180px;
+}
+#tabs div h3 {
+text-transform: uppercase;
+margin-bottom: 10px;
+letter-spacing: 1px;
+}
+#tabs div p {
+line-height: 150%;
+}
+</style>
+
+<script type="text/javascript">
+
+var loading='<p>&nbsp;</p><strong>Please Wait...</strong>';
+$().ready(function() {
+  $('#ex1').jqm({ajax: '@href', trigger: 'a.ex1trigger',ajaxText: loading});
+  $('#ex2').jqm({ajax: '@href', trigger: 'a.ex2trigger',ajaxText: loading});
+  $('#ex3').jqm({ajax: '@href', trigger: 'a.ex3trigger',ajaxText: loading});
+  $('#ex4').jqm({ajax: '@href', trigger: 'a.ex4trigger',ajaxText: loading});
+  $('#ex5').jqm({ajax: '@href', trigger: 'a.ex5trigger',ajaxText: loading});
+  $('#ex6').jqm({ajax: '@href', trigger: 'a.ex6trigger',ajaxText: loading});
+  $('#ex7').jqm({ajax: '@href', trigger: 'a.ex7trigger',ajaxText: loading});
+  $('#ex8').jqm({ajax: '@href', trigger: 'a.ex8trigger',ajaxText: loading});
+  $('#ex9').jqm({ajax: '@href', trigger: 'a.ex9trigger',ajaxText: loading});
+  $('#ex10').jqm({ajax: '@href', trigger: 'a.ex10trigger',ajaxText: loading});
+  $('#ex11').jqm({ajax: '@href', trigger: 'a.ex11trigger',ajaxText: loading});
+  $('#ex12').jqm({ajax: '@href', trigger: 'a.ex12trigger',ajaxText: loading});
+  
+  $('#ex13').jqm({ajax: '@href', trigger: 'a.ex13trigger',ajaxText: loading});
+  $('#ex14').jqm({ajax: '@href', trigger: 'a.ex14trigger',ajaxText: loading});
+  $('#ex15').jqm({ajax: '@href', trigger: 'a.ex15trigger',ajaxText: loading});
+  $('#ex16').jqm({ajax: '@href', trigger: 'a.ex16trigger',ajaxText: loading});
+  $('#ex17').jqm({ajax: '@href', trigger: 'a.ex17trigger',ajaxText: loading});
+  $('#ex18').jqm({ajax: '@href', trigger: 'a.ex18trigger',ajaxText: loading});
+  $('#ex19').jqm({ajax: '@href', trigger: 'a.ex19trigger',ajaxText: loading});
+  $('#ex20').jqm({ajax: '@href', trigger: 'a.ex20trigger',ajaxText: loading});
+  $('#ex21').jqm({ajax: '@href', trigger: 'a.ex21trigger',ajaxText: loading});
+  $('#ex22').jqm({ajax: '@href', trigger: 'a.ex22trigger',ajaxText: loading});
+  $('#ex23').jqm({ajax: '@href', trigger: 'a.ex23trigger',ajaxText: loading});
+  $('#ex24').jqm({ajax: '@href', trigger: 'a.ex24trigger',ajaxText: loading});
+});
+
+$(document).ready(function(){
+$('#tabs div').hide(); // Hide all divs
+$('#tabs div:first').show(); // Show the first div
+$('#tabs ul li:first').addClass('active'); // Set the class of the first link to active
+$('#tabs ul li a').click(function(){ //When any link is clicked
+	$('#tabs ul li').removeClass('active'); // Remove active class from all links
+	$(this).parent().addClass('active'); //Set clicked link class to active
+	var currentTab = $(this).attr('href'); // Set variable currentTab to value of href attribute of clicked link
+	$('#tabs div').hide(); // Hide all divs
+	$(currentTab).show(); // Show div with id equal to variable currentTab
+	return false;
+	});
+});
+
+</script>
+</head>
+
+<body>
+<div id="box-header-nav"> </div>
+<div id="box-header-banner"></div>
+<div id="box-header-font"><a class="nav" href="http://sreeguruastrology.com/index.php">Home</a> | <a class="nav" href="http://sreeguruastrology.com/?page_id=28">Our Astologers</a> | <a class="nav" href="http://sreeguruastrology.com/?page_id=31">Publications</a> | <a class="nav" href="http://sreeguruastrology.com/?page_id=26">Contact Us</a></div>
+<div id="box-footer-zodiac" style="height:450px;">
+<div style="width:990px;margin:0 auto;padding:10px 0;background-color:green;text-align:center;color:#fff;font-size:18px;font-weight:bold;">Free Daily Forecast!!!</div>
+<div id="tabs">
+<ul>
+<li><a href="#tab-1">MOON SIGN</a></li>
+<li><a href="#tab-2">SUN SIGN</a></li>
+</ul>
+<div id="tab-1">
+<table cellpadding="0" cellspacing="20" style="text-align:center">
+<tr>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=1" class="ex1trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign1.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=2" class="ex2trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign2.jpg"  /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=3" class="ex3trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign3.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=4" class="ex4trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign4.jpg"  /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=5" class="ex5trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign5.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=6" class="ex6trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign6.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=7" class="ex7trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign7.jpg"/></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=8" class="ex8trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign8.jpg"/></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=9" class="ex9trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign9.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=10" class="ex10trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign10.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=11" class="ex11trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign11.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/moon.php?s=12" class="ex12trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/moon/sign12.jpg" /></a></td>
+</tr>
+<tr>
+<td>Mesha</td>
+<td>Vrishabha</td>
+<td>Mithuna</td>
+<td>Karkata</td>
+<td>Simha</td>
+<td>Kanya</td>
+<td>Thula</td>
+<td>Vrischika</td>
+<td>Dhanu</td>
+<td>Makara</td>
+<td>Kumbha</td>
+<td>Meena</td>
+</tr>
+</table>
+<div class="jqmWindow" id="ex1" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex2" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex3" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex4" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex5" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex6" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex7" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex8" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex9" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex10" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex11" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex12" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+
+<p>
+<strong>What is Moon Sign?</strong><br />
+Moon Sign is purely based on one's birth star. It is an Indian system.</p>
+
+<table cellpadding="5" cellspacing="0">
+<tr>
+<td>
+1. <strong style="color:#ff0000">Mesha</strong> - Aswini, Bharani, 1/4 Krithika <br />
+2. <strong style="color:#ff0000">Vrishabha</strong> - 3/4 Krithika, Rohini, 1/2 Mrigasira <br />
+3. <strong style="color:#ff0000">Mithuna</strong> - 1/2 Mrigasira, Ardra, 3/4 Punarvasu <br />
+4. <strong style="color:#ff0000">Karkata</strong> - 1/4 Punarvasu, Pushya, Aslesha <br />
+5. <strong style="color:#ff0000">Simha</strong> - Magha, Poorvaphalguni, 1/4 Utharaphaguni<br />
+6. <strong style="color:#ff0000">Kanya</strong> - 3/4 Utharaphaguni, Hastha, 1/2 Chithra<br />
+</td>
+
+<td>
+7. <strong style="color:#ff0000">Thula</strong> - 1/2 Chithra, Swathi, 3/4 Visakha<br />
+8. <strong style="color:#ff0000">Vrischika</strong> - 1/4 Visakha, Anuradha, Jyeshta<br />
+9. <strong style="color:#ff0000">Dhanu</strong> - Moola, Poorvashadha, 1/4 Uttarashada<br />
+10. <strong style="color:#ff0000">Makara</strong> - 3/4 Uttarashada, Sravana, 1/2 Dhanishta<br />
+11. <strong style="color:#ff0000">Kumbha</strong> - 1/2 Dhanishta, Sathabhishak, 3/4 Poorvabhadrapada<br />
+12. <strong style="color:#ff0000">Meena</strong> - 1/4 Poorvabhadra, Utharabhadra, Revathi<br />
+</td>
+</tr>
+</table>
+
+</div>
+<div id="tab-2">
+<table cellpadding="0" cellspacing="20" style="text-align:center">
+<tr>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=1" class="ex13trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/aries_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=2" class="ex14trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/torus_icon.jpg"  /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=3" class="ex15trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/jemini_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=4" class="ex16trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/cancer_icon.jpg"  /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=5" class="ex17trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/lio-icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=6" class="ex18trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/virgo_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=7" class="ex19trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/libra_icon.jpg"/></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=8" class="ex20trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/scorpio_icon.jpg"/></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=9" class="ex21trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/sagitorious_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=10" class="ex22trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/crapicon_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=11" class="ex23trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/aquarious_icon.jpg" /></a></td>
+<td><a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/includes/sun.php?s=12" class="ex24trigger" style="text-decoration:none;"><img src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/pisus-icon.jpg" /></a></td>
+</tr>
+<tr>
+<td>Aries</td>
+<td>Taurus</td>
+<td>Gemini</td>
+<td>Cancer</td>
+<td>Leo</td>
+<td>Virgo</td>
+<td>Libra</td>
+<td>Scorpio</td>
+<td>Sagittarius</td>
+<td>Capricon</td>
+<td>Aquarius</td>
+<td>Pisces</td>
+</tr>
+</table>
+<div class="jqmWindow" id="ex13" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex14" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex15" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex16" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex17" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex18" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex19" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex20" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex21" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex22" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex23" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+<div class="jqmWindow" id="ex24" style="background-color:#C4D7A4; border: 5px solid #4B731A; padding:10px;"></div>
+
+<p>
+<strong>What is Sun Sign?</strong><br />
+Sun Sign is purely based on one's date of birth only. It is a Western System.</p>
+
+<table cellpadding="5" cellspacing="0">
+<tr>
+<td>
+1. <strong style="color:#ff0000">Aries</strong> - (March 21 - April 20) <br />
+2. <strong style="color:#ff0000">Taurus</strong> - (April 21 - May 20) <br />
+3. <strong style="color:#ff0000">Gemini</strong> - (May 21 - June 21)<br />
+4. <strong style="color:#ff0000">Cancer</strong> - (June 22 - July 22)<br />
+5. <strong style="color:#ff0000">Leo</strong> - (July 23 - August 23)<br />
+6. <strong style="color:#ff0000">Virgo</strong> - (August 24 - September 22)<br />
+</td>
+
+<td>
+7. <strong style="color:#ff0000">Libra</strong> - (September 23 - October 22)<br />
+8. <strong style="color:#ff0000">Scorpio</strong> - (October 23 - November 22)<br />
+9. <strong style="color:#ff0000">Sagittarius</strong> - (November 23 - December 21)<br />
+10. <strong style="color:#ff0000">Capricorn</strong> - (December 22 - January 20)<br />
+11. <strong style="color:#ff0000">Aquarius</strong> - (January 21 - February 19)<br />
+12. <strong style="color:#ff0000">Pisces</strong> - (February 20 - March 20)<br />
+</td>
+</tr>
+</table>
+</div>
+
+
+</div>
+
+
+</div>
+<div id="box-page">  
+<table cellpadding="5px"  border="0" class="basic" style="border-collapse:collapse;">
+<tr class="head">
+<td class="spacer-v" style="width:642px; background-color:#4B731A;" colspan="2"><span>Articles</span></td>
+<td style="width:321px; background-color:#4B731A;">Consultancy</td>
+</tr>
+<tr>
+<td class="spacer-h spacer-v" style="width:642px; background-color:#C4D7A4;" colspan="2">
+
+<ul><li><a href="http://sreeguruastrology.com/how-movements-of-planets-with-respect-to-our-moon-sign-are-causing-results-kaladosham/">How  movements of planets with respect to our moon sign are causing results( Kaladosham )</a>
+</li><li><a href="http://sreeguruastrology.com/50/">What is the correct  stone I should wear as per my horoscope?</a>
+</li><li><a href="http://sreeguruastrology.com/who-can-wear-blue-sapphire/">Who can wear blue sapphire?</a>
+</li><li><a href="http://sreeguruastrology.com/question-answer-gem/">Question &#038; Answer &#8211; Gem</a>
+</li><li><a href="http://sreeguruastrology.com/question/">Question &#038; Answer &#8211; Analyzing a Horoscope</a>
+</li><li><a href="http://sreeguruastrology.com/ndian-astrology-and-abhijith-muhurtha-muhurat/">NDIAN ASTROLOGY AND ABHIJITH MUHURTHA / MUHURAT</a>
+</li><li><a href="http://sreeguruastrology.com/does-ones-horoscope-indicate-the-possible-diseases-medical-astrology/">Does one’s horoscope indicate the possible diseases? ( Medical astrology)</a>
+</li><li><a href="http://sreeguruastrology.com/which-is-a-good-muhurtha-for-vivaha/">Which is a good muhurtha for vivaha?</a>
+</li><li><a href="http://sreeguruastrology.com/what-is-the-gem-that-one-should-wear/">What is the Gem that one should wear?</a>
+</li></ul>		
+</td>
+
+<td class="spacer-h" style="width:321px; background-color:#E1E6B9;">
+<p><img align="left" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/hari-sir.jpg" vspace="5px" hspace="2px" /><strong>Sri.Hari Menon</strong> is a Vedic astrologer and Gemology practitioner. He is very active in the field of Vedic astrology and has been teaching and giving consultations for the past 15 years. He is a well experienced Astrology expert can predict your future and tell you the remedies for your problems.</p>
+<!--<p class="mal">(നിങ്ങളുടെ പ്രശ്നങ്ങള്‍ക്ക് പ്രശസ്ത ജ്യോതിഷ പണ്ഡിതന്‍ <strong class="mal">ശ്രി.ഹരിമേനോന്‍ </strong>പരിഹാരം നിര്‍ദേശിക്കുന്നു.)</p>-->
+
+</td>
+</tr>
+<tr class="head">
+<td style="background-color:#BDDFB3;color:red;" colspan="3">If you are facing any difficulties in purchasing our services through this website, you can remit the specified amout to our bank account and inform us the payment details and your requirements through email. We will send your reporst to your email.
+Please send your payment in the following account:<br/>
+Name --------------K.P.Sankaran Nair<br/>
+A/C No  -----------10110100194344<br/>
+IFSC code--------- FDRL 0001011<br/>
+Branch-------------Federal bank,Kolencherry<br/>
+Email--------------sreeguruastrology@yahoo.com
+</td>
+</tr>
+<tr class="head">
+<td class="spacer-v" style="width:321px; background-color:#4B731A">Super Horoscope &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 1500</span></td>
+<td class="spacer-v" style="width:321px; background-color:#4B731A">Full Horoscope &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 1000</span></td>
+<td style="width:321px; background-color:#4B731A">Annual Forecast &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 500</span></td>
+</tr>
+
+<tr>
+<td  class="spacer-h spacer-v" style="width:321px; background-color:#E1E6B9">
+<p>Gaze into the crystal bowl of your life. Find, know and conquer the star influences. Vedic or Indian Astrology at its scientific best. Contains ashtakavarga predictions and parihara (remedies)<br>
+</p>
+<p><strong>Number of pages: 64-70</strong></p>
+<p><strong>Available in:</strong> English, Hindi, Tamil, Telugu, Malayalam,Kannada,Bengali</p>
+<!--<p class="mal">
+(നിങ്ങളുടെ ജീവിതത്തിലെ പ്രധാന സംഭവങ്ങള്‍ എപ്പോള്‍ ? എങ്ങനെ ? വ്യക്തിത്വം , വിവാഹം , ജോലി , വിദ്യാഭ്യാസം , യോഗങ്ങള്‍ , ദാശാഫലങ്ങള്‍ എന്നിവയ്ക്കൊപ്പം ദോഷ പരിഹാരങ്ങള്‍ കൂടി  നിര്‍ദേശിക്കുന്ന വിശദമായ ജാതകം)</p>-->
+
+</td>
+<td  class="spacer-h spacer-v" style="width:321px; background-color:#ABC8A4">
+<p>Know whats in store at every stage of life according to Indian astrology. Find yourself and your special attributes based on your stars.</p>
+<p><strong>Number of pages: 38-40</strong></p>
+<p><strong>Available in:</strong> English, Hindi, Gujarathi, Sinhala, Tamil, Telugu, Kannada, Malayalam</p>
+<!--<p class="mal">(നിങ്ങളുടെ ജീവിതത്തിലെ പ്രധാന സംഭവങ്ങള്‍ എപ്പോള്‍ ? എങ്ങനെ ? വ്യക്തിത്വം , വിവാഹം , ജോലി , വിദ്യാഭ്യാസം , യോഗങ്ങള്‍ , ദാശാഫലങ്ങള്‍ എന്നിവ പ്രദിപാദിക്കുന്ന വിശദമായ ജാതകം)</p>-->
+
+</td>
+<td  class="spacer-h" style="width:321px; background-color:#C4D7A4; ">
+<p>Find out what's in store for you this year and suppress your misfortunes by your diligence, will power and the grace of God.</p>
+<p><strong>Number of pages: 9-10</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Telugu, Malayalam</p>
+<!--<p class="mal">(ഈ വര്‍ഷം നിങ്ങള്‍ക്കെങ്ങനെ ? നിങ്ങളുടെ ജീവിതത്തില്‍ ഉണ്ടാകാന്‍ പോകുന്ന പ്രധാന സംഭവങ്ങള്‍ , ഭാഗ്യ നിര്‍ഭാഗ്യങ്ങള്‍ മുതലായവ പ്രതിപാദിക്കുന്ന വിശദമായ റിപ്പോര്‍ട്ട്‌)</p>--></td>
+</tr>
+<tr>
+  <td align="right"  class="spacer-h spacer-v" style="width:321px; background-color:#E1E6B9">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/SuperHoroscopeEng.pdf" target="_blank">English</a> | <a href="data/sample-reports/SuperHoroscopeMal.pdf" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/super-horoscope?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a> </div></td>
+  <td align="right"  class="spacer-h spacer-v" style="width:321px; background-color:#ABC8A4">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/FullHoroscopeEng.pdf" target="_blank">English</a> | <a href="data/sample-reports/FullHoroscopeMal.pdf" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/full-horoscope?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+  <td align="right"  class="spacer-h" style="width:321px; background-color:#C4D7A4; ">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/annualEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/annualMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/yearly-horoscope?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+</tr>
+<tr class="head">
+<td class="spacer-v" style="width:321px; background-color:#4B731A">Marriage Compatibility &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 200</span></td>
+    <td class="spacer-v" style="width:321px; background-color:#4B731A">Gem Recommendation 
+      &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 225</span></td>
+<td style="width:321px; background-color:#4B731A">Numerology &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 200</span></td>
+</tr>
+
+<tr>
+<td class="spacer-h spacer-v" style="width:321px;background-color:#C4D7A4;">
+<p>Searching for the recipe for a great marriage?. SoulMate points you to ways to find the most suitable spouse with the help of our Indian astrology based Marriage compatibility report.</p>
+<p><strong>Number of pages: 3-5</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Telugu, Kannada, Malayalam, Hindi, Marathi, Gujarathi</p>
+<!--<p class="mal">
+(പ്രതിശ്രുത വരനോ വധുവോ നിങ്ങള്‍ക്കു യോജിച്ച ആളായിരിക്കുമോ ? ജാതക പൊരുത്തം നോക്കുന്നു.)</p>--></td>
+<td class="spacer-h spacer-v" style="width:321px;background-color:#E1E6B9">
+<p>Understand the link between stars and stones and stonewall the impelling auras in life using these gem recommendations.</p>
+<p><strong>Number of pages: 3-4</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Telugu, Kannada, Malayalam</p>
+<!--<p class="mal">(ദശാകാല ദോഷങ്ങള്‍ ഒഴിവാക്കാന്‍ അതതു ഗ്രഹത്തിന് അനുയോജ്യമായ രത്നം ധരിക്കുന്നതിലൂടെ സാധിക്കും. നിങ്ങളുടെ ജാതകം പരിശോധിച്ചു അനുയോജ്യമായ രത്നം നിര്‍ദേശിക്കുന്ന വിശദമായ റിപ്പോര്‍ട്ട്.)</p>--></td>
+<td class="spacer-h" style="width:321px;background-color:#ABC8A4">
+<p>What to do, when and with whom. Scientific analysis of your numbers based on numerology to help you along to succeed.</p>
+<p><strong>Number of pages: 7-8</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Telugu, Kannada, Malayalam</p>
+<!--<p class="mal">(താങ്കളുടെ ജനനം , പേര് എന്നിവയുമായി ബന്ധപ്പെട്ടു വരുന്ന സംഖ്യകള്‍ ഉള്‍ക്കൊള്ളുന്ന ഗൂഡ സവിശേഷതകള്‍ കണ്ടെത്തി ഭാവി ഫലങ്ങളും , വ്യക്തിത്വ സവിശേഷതകളും പ്രവചിക്കുന്നു .)</p>--></td>
+</tr>
+<tr>
+  <td align="right" class="spacer-h spacer-v" style="width:321px;background-color:#C4D7A4;">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/SoulMateEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/SoulMateMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/horoscope-compatibility?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+  <td align="right" class="spacer-h spacer-v" style="width:321px;background-color:#E1E6B9">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/GemEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/GemMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/gemstone-recommendation?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+  <td align="right" class="spacer-h" style="width:321px;background-color:#ABC8A4">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/NumerologyEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/NumerologyMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/indian-astrology/indianastrologyreports/orderastroreports.php?horoscope=Numerology" class="btn-green" target="_blank">Order Now</a></div></td>
+</tr>
+<tr class="head">
+    <td class="spacer-v" style="width:321px; background-color:#4B731A">Career Prediction 
+      &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 350</span></td>    <td class="spacer-v" style="width:321px; background-color:#4B731A">Wealth 
+      Prediction &nbsp; - &nbsp; <span class="yellow"><span class="WebRupee">Rs.</span> 
+      350</span></td>
+<td style="width:321px; background-color:#4B731A">Recommended Reading</td>
+</tr>
+
+<tr>
+<td  class="spacer-v" style="width:321px; background-color:#E1E6B9">
+<p><img align="left" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/career-img.png" vspace="5px" hspace="2px" />Find out more about your personality traits and discover the education and career path which suits you the best!.</p>
+<p><strong>Number of pages: 6-11</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Malayalam</p>
+<!--<p class="mal">
+(ജാതകത്തില്‍ പത്താം ഭാവം ഒരാളുടെ കര്‍മ രംഗത്തെക്കുറിച്ച് വെളിച്ചം നല്‍കുന്നു. ഈ ഭാവത്തെ അനലൈസ് ചെയ്ത്  നിങ്ങള്‍ എത്തിച്ചേരാന്‍ ഇടയുള്ള, നിങ്ങള്‍ ശോഭിക്കാന്‍ സാധ്യതയുള്ള  കര്‍മ രംഗം പ്രവചിക്കുന്ന വിശദമായ റിപ്പോര്‍ട്ട്‌. വിദ്യാര്‍ത്ഥികള്‍ക്കും തൊഴില്‍ അന്വേഷിക്കുന്നവര്‍ക്കും ഇത് ഉപകാരപ്രദമാണ്.)
+</p>--></td>
+<td  class="spacer-v" style="width:321px; background-color:#ABC8A4">
+<p>Akshaya means 'something which does not perish' (A-kshaya). Therefore, one should initiate important tasks and events on this day, since they are believed to see the light of success and stay successful for a long time.</p>
+<p><strong>Number of pages: 5-6</strong></p>
+<p><strong>Available in:</strong> English, Tamil, Malayalam</p>
+<!--<p class="mal">(നിങ്ങളുടെ ബിസിനസ്‌ , സാമ്പത്തികം എന്നിവയിലുണ്ടാകാന്‍ പോകുന്ന ഉയര്‍ച്ച താഴ്ച്ചകള്‍ പ്രദിപാദിക്കുന്ന വിശദമായ റിപ്പോര്‍ട്ട്‌)</p>--></td>
+<td  style="width:321px; background-color:#C4D7A4; "><p class="mal"><img align="left" src="http://sreeguruastrology.com/wp-content/themes/sreeguru/images/book.jpg" vspace="5px" hspace="2px" /><!--<span class="mal" style="font-weight:bold">ജന്മ നക്ഷത്രങ്ങളും വൃക്ഷങ്ങളും :- </span>ജന്മ നക്ഷത്രങ്ങളുമായി ബന്ധപ്പെട്ട വൃക്ഷങ്ങളെയും മൃഗങ്ങളെയും ജ്യോതിഷം നിര്‍ദേശിക്കുന്നു. ഓരോ നക്ഷത്രങ്ങളിലും ജനിക്കുന്നവര്‍ , അവരവരുടെ നക്ഷത്രങ്ങളുമായി ബന്ധപ്പെട്ട വൃക്ഷത്തെയും മൃഗത്തെയും പരിപാലിക്കുന്നു എങ്കില്‍ കൂടുതല്‍ ഐശ്വര്യവും സന്തോഷവും പ്രദാനം ചെയ്യുമെന്നാണ് സങ്കല്‍പ്പവും വിശ്വാവും. ഈ വിശ്വാസങ്ങളിലേക്കും ഓരോ നക്ഷത്രങ്ങളുമായി ബന്ധപ്പെട്ട വൃക്ഷങ്ങളും അവയുടെ പ്രത്യേകതകളിലേക്കും വെളിച്ചം വീശുന്ന മികച്ച കൃതി.</p>--></td>
+</tr>
+<tr>
+  <td align="right"  class="spacer-v" style="width:321px; background-color:#E1E6B9">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/CareerEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/CareerMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/career-horoscope?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+  <td align="right"  class="spacer-v" style="width:321px; background-color:#ABC8A4">
+  <div class="link-btn">Sample Report - <a href="http://sreeguruastrology.com/wp-content/themes/sreeguru/data/sample-reports/WealthEng.PDF" target="_blank">English</a> | <a href="data/sample-reports/WealthMal.PDF" target="_blank">Malayalam</a></div>
+  &nbsp;&nbsp;<div><a href="http://www.clickastro.com/wealth-horoscope?rf=SreeGuruAstrology" class="btn-green" target="_blank">Order Now</a></div></td>
+  <td align="right"  style="width:321px; background-color:#C4D7A4; "></td>
+</tr>
+</table>
+</div>
+
+
+<div id="box-footer">&copy;2011 Sreeguru Astrology. All rights reserved.</div>
+</body>
+</html>
+  

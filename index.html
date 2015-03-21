@@ -2,22 +2,62 @@
 layout: default
 ---
 
-<div class="home">
+<!-- New Articles -->
+<article id="main" class="posts">
+  <header class="special container">
+    <span class="icon fa-book"></span>
+    <h2>Latest Articles</h2>
+  </header>
+  <section class="wrapper style2 container">
+    <div class="row 50%">
+      <div class="12u">
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <h4>
+                <i class="icon fa-pencil-square"></i>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+</article>
 
-  <h3 class="page-heading">Posts</h3>
+<hr>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h4>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h4>
-      </li>
+<section>
+  <header>
+    <h2>Offers</h2>
+  </header>
+  <div class="catelog">
+    {% for item in site.data.purchasables %}
+      <div class="catelog-item">
+        <h3>{{ item.title }}</h3>
+        <hr>
+        <p><strong>Price:</strong> {{ item.price }}</p>
+        <hr>
+        <p>{{ item.description }}</p>
+        <hr>
+        <p>
+          <strong>Number of pages:</strong> {{ item.pages }}
+          <br>
+          <strong>Available in:</strong> {{ item.available_in }}
+        </p>
+        <hr>
+        <p>
+          <strong>Sample Reports:</strong>
+          {% for report in item.reports %}
+            <a href="{{ report.url }}" target="_blank">{{ report.title }}</a>
+          {% endfor %}
+          </ul>
+        </p>
+        <hr>
+        <a class="button order-now" href="{{ item.order_url }}" target="_blank">Order Now</a>
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </div>
+</section>

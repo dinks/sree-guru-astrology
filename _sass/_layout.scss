@@ -1,35 +1,105 @@
-.nav-contact {
-  .icon {
-    color: #27ae60;
+#sub-nav {
+  background-color: #69A700;
+  padding: 1.2em 0.5em;
+  margin: 0 0 1em 0;
+
+  ul {
+    margin: 0;
   }
 
-  .navbar-nav > li > a {
-    padding: 0;
-  }
-}
+  li {
+    display: inline-block;
+    margin-right: 1.0rem;
 
-.heading {
-  position: relative;
-  margin-bottom: 0;
-  border-bottom: 1px solid $yellow-color;
-  background-color: transparent;
-  padding-top: 100px;
-  overflow: hidden;
-
-  .video-container {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-
-    .video-playing {
-      width: 100%;
-      min-width: 700px; // for reduced resolutions
+    a {
+      color: white;
+      font-weight: bolder;
     }
   }
 }
 
-footer {
-  padding: 10px;
+.posts {
+  i {
+    color: #233700;
+  }
+
+  .post-meta {
+    color: #233700;
+    font-size: 0.6em;
+  }
+}
+
+.sloka {
+  border: 1px dotted #EEDDEE;
+  background-color: #FCF074;
+  padding: 0.3em;
+  font-weight: bolder;
+}
+
+.signs {
+  border: 1px solid #F1F1F1;
+
+  ol {
+    list-style: decimal;
+  }
+}
+
+.sign-today {
+  border: 1px solid #F1F1F1;
+}
+
+.catelog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: center;
+  justify-content: center;
+
+  .catelog-item {
+    flex: 1 auto;
+    min-width: 20%;
+    max-width: 25%;
+    margin: 1em;
+    padding: 0px 0.5em 3.0em 0.5em;
+    border: 1px solid #E1E1E1;
+    background-color: #FFF;
+    position: relative;
+
+    h3 {
+      padding-top: 1em;
+    }
+
+    .order-now {
+      position: absolute;
+      min-width: 95%;
+      bottom: 10px;
+      padding: 0;
+      margin: 0;
+      width: auto;
+      border-radius: 5px;
+    }
+  }
+}
+
+.publications {
+  ul li {
+    display: inline-block;
+    padding-right: 1em;
+  }
+}
+
+html.narrow {
+  .catelog-item {
+    max-width: 45%;
+  }
+}
+
+html.mobile {
+  .catelog {
+    padding: 0 1em;
+
+    .catelog-item {
+      min-width: 100%;
+    }
+  }
 }
